@@ -1,0 +1,16 @@
+.icons-smile {
+ Width: 18px;
+ Height: 18px;
+ top: 50%;
+ background-image: url(../images/smile.png);
+ background-repeat: no-repeat;
+ background-position: 4px;
+  }
+  .icons-pony {
+    Width: 18px;
+    Height: 18px;
+    top: 50%;
+    background-image: url(../images/pony.png);
+    background-repeat: no-repeat;
+    background-position: 4px;
+     }

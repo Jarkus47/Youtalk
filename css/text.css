@@ -1,0 +1,429 @@
+@font-face {
+    src: url("../fonts/serif/SourceSerifPro-Regular.ttf");
+    font-family: "SourceSerifPro-Regular";
+  }
+  @font-face {
+    src: url("../fonts/sansserif/Roboto-Regular.ttf");
+    font-family: "Roboto-Regular";
+  }
+  @font-face {
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+    font-family: "Montserrat";
+  }
+  @font-face {
+    src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
+    font-family: "Montserrat-bold";
+  }
+
+  @font-face {
+    src: url("../fonts/Open_Sans/static/OpenSans-Medium.ttf");
+    font-family: "Open Sans";
+  }
+
+
+  /*Первая секция*/
+
+
+    .zagolovok{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #333333;
+        margin: 0;
+    }
+
+
+    .sod {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-bottom: 0px;
+        margin-top:0px;
+    }
+
+    .rows {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #333333;
+        cursor: pointer;
+    }
+    
+    .row1 {
+        margin-left: 32px;
+    }
+    
+    .row2 {
+        margin-left: 56px;
+    }
+
+    .row3 {
+        margin-left: 72px;
+        }
+
+    .row4 {
+        margin-left: 88px;
+    }
+
+    .tema {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333333;
+        margin-bottom: 0px;
+        margin-top:0px;
+    }
+    
+    .tema-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-top:16px;
+        width: 690px;
+    }
+
+    .tema-text-1 {
+      width: 385px;
+      margin-top: 0px;
+    }
+
+    .citata-text{
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-top: 34px;
+        margin-left: 24px;
+        position: absolute;
+    }
+
+    .citata-podpic {
+        margin-left: 24px;
+        margin-top: 114px;
+        position: absolute;
+      }
+
+      .zagolovok2-li {
+        margin-top: 16px;
+        margin-left: 8px;
+      }
+
+      .comment {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: 0.25px;
+        color: #868686;
+    }
+    
+    .vstavka-text {
+        margin-top: 24px;
+        margin-left: 102px;
+        position: absolute;
+        text-align: center;
+    }
+
+    .otstup-0 {
+        margin-top: 0px;
+    }
+
+    .w386 {
+        width: 386px;
+    }
+
+    .w333 {
+        width: 333px;
+    }
+
+    .otstup24 {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    
+    .otstup24-p {
+        padding-top: 24px;
+        padding-left: 24px;
+    }
+
+    .otstup24-8-p {
+        padding-top: 8px;
+        padding-left: 24px;
+        width: 642px;
+        margin-top: 0px;
+    }
+
+    .w572 {
+        width: 572px;
+    }
+
+    .o24 {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .spann {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #2963A3;
+    }
+
+    .spann > a {
+        cursor: pointer;
+        color: #2963A3;
+    }
+
+    .main-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #333333;
+        margin-bottom: 0px;
+    }
+
+/*Вторая секция*/
+
+.blok1-text1{
+    width: 234px;
+    height: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 27px;
+    position: absolute;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.blok1-text2{
+    width: 234px;
+    height: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-top: 316px;
+}
+
+/**/
+
+.blok2-text1{
+    width: 282px;
+    height: 28px;
+    margin-top: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+    position: absolute;
+    text-align: center;
+}
+
+.blok2-text2{
+    width: 282px;
+    height: 24px;
+    margin-top: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    position: absolute;
+    text-align: center;
+}
+
+.blok2-text3{
+    width: 282px;
+    height: 24px;
+    margin-top: 56px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    position: absolute;
+    text-align: center;
+}
+
+.blok2-text4{
+    width: 282px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 16px;
+}
+
+.blok2-spisok{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 16px;
+}
+
+/**/
+
+.blok4-text1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #2963A3;
+    margin-top: 32px;
+    width:218px;
+}
+
+.blok4-text1-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    color: #2963A3;
+}
+
+.blok4-text2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #011632;
+    margin-top: 16px;
+    width: 196px;
+}
+
+.blok4-text3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    color: #333333;
+    margin-top: 16px;
+}
+
+
+@media (max-width: 1024px) {
+
+    
+    .blok1-text1{
+    position: absolute;
+    display: flex;
+    margin-top: 172px;
+    width: 182px;
+    }
+    
+    .blok1-text2{
+    margin-top: 279px;
+    width: 182px;  
+    }
+
+    .blok2-text4{
+        width: 174px;
+        height: 24px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        position: absolute;
+        text-align: center;
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 54px;
+   }
+
+   .blok2-spisok{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 54px;
+        margin-top: 36px;
+        width: 174px;
+    }
+
+    .blok2-spisok > li:nth-child(3) {
+        display: none;
+    }
+
+    .blok4-text1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: flex-end;
+        color: #2963A3;
+        margin-top: 32px;
+        width:174px;
+    }
+
+    .blok4-text2 {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #011632;
+        margin-top: 16px;
+        width: 180px;
+
+
+    }
+
+}
+    
+

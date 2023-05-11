@@ -1,0 +1,393 @@
+@font-face {
+  src: url("../fonts/serif/SourceSerifPro-Regular.ttf");
+  font-family: "SourceSerifPro-Regular";
+}
+@font-face {
+  src: url("../fonts/sansserif/Roboto-Regular.ttf");
+  font-family: "Roboto-Regular";
+}
+@font-face {
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+  font-family: "Montserrat";
+}
+@font-face {
+  src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
+  font-family: "Montserrat-bold";
+}
+
+* {
+  list-style-type: none; 
+  padding: 0;
+  font-family: "Roboto-Regular";
+  text-decoration: none;
+}
+
+.body {
+  background-position: center 401px ;
+  background-image: url(../images/Vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+/* Это header*/
+
+.header {
+  box-shadow: inset 0px -2px 0px #EFF2F2;
+}
+
+.container {
+  max-width: 1200px;
+  max-height: 76px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header__row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+
+.header__body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__body > .logo{
+  margin-right: 51px;
+}
+
+.menu__list{
+  display: flex;
+  align-items: center;
+}
+
+.menu__item:not(:last-child){
+  margin-right: 30px;
+}
+
+.menu__link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+  letter-spacing: 0.25px;
+  transition: all .4s ease-in-out;
+}
+
+.menu__link:hover {
+  color: #ff9950;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 230px;
+  min-height: 48px;
+  padding: 14px 20px;
+  background-color: #e3f5f5;
+  color: #03b2a5;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  transition: all .4s ease-in-out;
+}
+
+.button:hover {
+  color: #50dcff;
+}
+
+.burger-icon {
+  display: none;
+  margin-top: 5px;
+  z-index: 2;
+}
+
+.burger-icon span {
+  display: block;
+  height: 7px;
+  width: 45px;
+  background-color: black;
+}
+
+.burger-icon span:nth-child(2) {
+  margin: 6px 0;
+}
+
+/*Это main*/
+
+.container-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-links{
+  padding-top: 16px;
+  padding-left: 6px;
+  gap: 8px;
+}
+
+.main-links > a:link{
+  color:rgba(51, 51, 51, 0.7);
+}
+
+.blog{
+  padding-top: 30px;
+}
+
+.blog-text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px; 
+}
+
+.tegs{
+  padding-top: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.button-tegs{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  flex-direction: row;
+  height: 32px;
+  border: 1px solid #C1C5CD;
+  border-radius: 24px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 6px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.button-tegs:first-child{
+  margin-left: 0px;
+}
+.button-tegs:nth-of-type(3){
+  border: 2px solid #16C8BB;
+}
+
+
+/*Это статьи*/
+
+.article {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: auto; 
+}
+
+.grid-wrapper-big {
+  display:grid;
+  grid-template-columns: repeat( auto-fill, 588px );
+  grid-template-rows:500px;
+  grid-gap:24px;
+}
+
+.imgs-big {
+  width: 588px;
+  height: 260px;
+  margin-top: 23px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.onit {
+  position: relative;
+}
+
+.onit img {
+  width: 100%;
+  height: 260px;
+}
+
+.onit .button-tegs {
+  position: absolute;
+  top: 31px;
+  left: 8px; 
+}
+
+.text-name {
+  position: relative;
+  width: 586px;
+  height: 240px;
+  margin-top: -5px;
+  border-radius: 0px 0px 16px 16px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+}
+
+.text1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+  margin-left: 16px;
+}
+
+.text2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #494949;
+  margin-left: 16px;
+}
+
+.text3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-left: 16px;
+}
+
+.text4 {
+  position: absolute;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #494949;
+  margin-left: 16px;
+  bottom:0;
+}
+
+.grid-wrapper-small{
+  display:grid;
+  grid-template-columns: repeat( auto-fill, 384px );
+  grid-template-rows:476px;
+  grid-gap:24px;
+  margin-top: 24px;
+}
+
+.imgs-small {
+  width: 384px;
+  height: 260px;
+  margin-top: 23px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.text-name-small {
+  position: relative;
+  width: 382px;
+  height: 216px;
+  margin-top: -5px;
+  border-radius: 0px 0px 16px 16px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+}
+  
+  /*Это кнопка для статей*/
+
+.more{
+  max-width: 1200px;
+  margin: 0 auto;   
+  position: relative;
+  padding-bottom: 96px;
+}
+
+.button-more{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 182px;
+  min-height: 48px;
+  padding: 14px 20px;
+  background-color: rgba(53, 179, 169, 1);
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  transition: all .4s ease-in-out;
+  position: absolute;
+  height: 48px;
+  left: 43.68%;
+  right: 43.68%;
+  top: 56px;
+}
+
+
+
+@media (max-width: 1270px){
+body{
+  margin-left: 32px;
+}
+}
+
+@media (max-width: 1024px) {
+  .main-section {
+    text-align: center;
+    position:absolute;
+  }
+  .description {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  #podbor{
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .header-menu {
+    display: none;
+  }
+  .burger-icon {
+    display: block;
+    height: 2px;
+    width: 24px;
+  }
+  .burger-icon span {
+    height: 2px;
+    width: 24px;
+  }
+}
+@media (max-width: 414px) {
+  .section-container {
+    display: block;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .section-container {
+    display: block;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 100px;
+  }
+  .section-container img {
+    width: 194px;
+    text-align: center;
+    padding-left: 0;
+  }
+}
