@@ -35,6 +35,10 @@
         width: 728px;
     }
 
+    .zagolovok {
+      width: 700px;
+    }
+
     .zagolovok2-ul {
         display: grid;
         grid-template-columns: 32px 696px;
@@ -44,7 +48,7 @@
         width: 696px;
       }
 
-      .tema-text1 {
+      .tema-text-1 {
         width: 418px;
         margin-top: 0;
       }

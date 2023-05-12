@@ -1,0 +1,337 @@
+@media (max-width: 414px) {
+
+    .header-menu {
+        display: none;
+    }
+    
+    .burger-icon {
+        display: block;
+        height: 2px;
+        width: 24px;
+        padding-right: 21px;
+        margin-top: -10px;
+    }
+    
+    .burger-icon span {
+        height: 2px;
+        width: 24px;
+    }
+   
+    .grid-wrapper{
+        display:grid;
+        grid-template-columns: 414px;
+        grid-template-rows:auto;
+        grid-gap:24px;
+        margin-top: 54px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }   
+
+    .first-section {
+        width: 394px;
+    }
+   
+    .container-main {
+        overflow: hidden;
+        margin-left: 20px;
+        width: 374px;
+        white-space: nowrap;
+    }
+
+
+    .container-main a {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: rgba(51, 51, 51, 0.7);
+    }
+
+    .hidden{
+        display: none;
+
+    }
+    .next::after {
+        content: "Как не утонуть в тревоге и управ...";
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: rgba(51, 51, 51, 0.7);
+        margin-left: 13.5px;
+    }
+
+    .zagolovok {
+        width: 374px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .sec1-img1 {
+        width: 374px;
+        height: 207px;
+    }
+
+
+
+    .new-grid {
+        display: grid;
+        grid-template-columns: 32px 342px;
+        grid-template-rows: 72px 48px;
+        grid-row-gap: 8px;
+    }
+
+    .rows {
+        width: 342px;
+    }
+
+    .tema-text {
+        width: 374px;
+    }
+
+    .citata {
+        margin-top: 40px;
+        width: 374px;
+        height: 218px;
+        background: #F3F7FE;
+        border-radius: 16px;
+        position: relative;
+        margin-bottom: 24px;
+    }
+
+    .citata-text {
+        margin-top: 26px;
+    }
+    
+    .citata-podpic {
+        margin-left: 24px;
+        margin-top: 178px;
+        position: absolute;
+    }
+
+    .tema-text2 {
+        width: 342px;
+    }
+
+    .of-img {
+        width: 374px;
+        height: 207px; 
+    }
+
+    .comment {
+        width: 374px;
+    }
+
+    .vstavka {
+        width: 374px;
+        height: 168px;
+        position: relative;
+        justify-content: center;
+        background-image: url(../images/Vector1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        top: 8px;
+    }
+
+    .vstavka-text {
+        margin-top: 24px;
+        position: absolute;
+        text-align: center;
+        width: 374px;
+        margin-left: 0;
+    }
+    
+    .otstup8 {
+        margin-top: 24px;
+    }
+
+    .grid-1 {
+        display: grid;
+        grid-template-columns: 380px;
+        grid-gap: 24px;
+    }
+      
+    .grid-1-img2 {
+        width: 374px;
+        height: 380px;
+    }
+
+    .bubble {
+        width: 374px;
+        height: 328px;
+    }
+
+    .o680 {
+        width: 342px;
+    }
+
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 374px;
+        grid-gap: 24px;
+    }
+      
+    .hands-img {
+        width: 374px;
+        height: 207px;
+    }
+
+    .bubble-1 {
+        width: 374px;
+        height: 328px;
+    }
+
+    .otstup24-8-p {
+        width: 342px;
+    }
+
+    .post {
+        display: grid;
+        grid-template-columns: 374px;
+        grid-template-rows: 419px;
+    }
+
+    .post-img {
+        width: 374px;
+        height: 235px;
+    }
+
+    .o24 {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        width: 374px;
+    }
+
+    .bubble-2 {
+        width: 374px;
+        height: 328px;
+    }
+
+    .second-section {
+        display: grid;
+        grid-template-columns: 374px;
+        grid-template-rows: auto 512px;
+        grid-gap: 16px;
+        padding-bottom: 59px;
+    }
+
+    .blok1 {
+        height: 512px;
+    }
+
+    .footer {
+        width: 414px;
+        max-width: 414px;
+        max-height: 818px;
+        background: rgba(41, 99, 163, 1);
+    }
+
+    .grid-naw {
+        display:grid;
+        grid-template-columns: 111px 106px;
+        grid-template-rows: 184px 200px 102px;
+        grid-column-gap:158px;
+        grid-template-areas: "a a b"
+        "c c c"
+        "d d d";
+    }
+
+    .menu__list1 {
+        margin-left: 20px;
+        padding-top: 0px;
+        margin-top: 35px;
+        width: 111px;
+        grid-area: a;
+    }
+
+    .menu__list2 {
+        margin-left: 0px;
+        padding-top: 0px;
+        margin-top: 35px;
+        width: 106px;
+        grid-area: b;
+    }
+
+
+    .menu__l2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        width: 375px;
+      }
+
+      .icons-bot {
+        margin-top: 20px;
+    }
+
+    .menu__list3 {
+        margin-left: 19px;
+        padding-top: 0px;
+        margin-top: 50px;
+        width: 375px;
+        grid-area: c;
+    }
+
+    .menu__list4 {
+        margin-left: 20px;
+        width: 221px;
+        height: 122px;
+        padding-top: 0px;
+        margin-top: 50px;
+        grid-area: d;
+        padding-bottom: 0px;
+    }
+
+    .line {
+        width: 374px;
+        height: 1px;
+        margin-top: 72px;
+        margin-left: 20px;
+        margin-right: 0px;
+        border: 1px;
+        background-image: url(../images/line.png);
+    }
+
+    .last-menu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        left: 19.5px;
+
+    }
+    
+    .menu__lm:not(:first-child) {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .menu__l2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+        opacity: 0.7;
+      }
+
+      .last-list {
+        position: relative;
+        height: 157px;
+    }
+
+  }
