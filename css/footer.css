@@ -133,14 +133,20 @@
   .icons-bot:not(:first-child){
     margin-left: 16px;
   }
-  
-  .line{
-    max-width: 1200px;
-    max-height: 1px;
-    position: absolute;
+
+
+  .line {
+    width: 1200px;
+    height: 1px;
+    margin-top: 0;
     margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 233.5px;
+    margin-right: 0px;
+    border: 1px;
+    background-image: url("../images/line.png");
+  }
+  
+  .img-line {
+    width: 1200px;
   }
   
   .last-list{
