@@ -204,7 +204,24 @@
     margin-top: 32px;
   }
 
+  .new-grid {
+    display: grid;
+    grid-template-columns: 32px 556px;
+    grid-template-rows: 48px 32px 28px 28px 28px 32px 38px;
+}
 
+  .elleps {
+    background: #03B2A5;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+  }
+
+  .elleps-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
 /*Первая секция*/
@@ -217,6 +234,15 @@
   line-height: 20px;
   color: #494949;
   margin-top: 16px;
+}
+
+.otstup-lp8 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.skryt {
+  display: none;
 }
 
 .sec1-img1 {
@@ -346,9 +372,7 @@
   grid-gap: 24px;
 }
 
-.post1 {
-width: 333px;
-}
+
 
 .bubble-2 {
   width: 690px;
@@ -425,6 +449,7 @@ width: 333px;
     display: flex;
     justify-content: center;
     top: 24px;
+
   }
 
   .blok-img2{
@@ -432,6 +457,7 @@ width: 333px;
     margin-left: 81px;
     margin-right: 81px;
   }
+  
   .row {
     display: flex;
     flex-direction: column;
@@ -443,21 +469,14 @@ width: 333px;
     box-shadow: 0px 1px 0px #DEDEDE;
     transform: matrix(1, 0, 0, -1, 0, 0);
     margin-left: 16px;
-    margin-top: 108px;
+    margin-top: 92px;
+    margin-bottom: 0;
   }
   
   .otstup{
     margin-top: 16px;
   }
 
-  .blok2-spisok > li::before {
-    content: "•";
-    color: #03B2A5;
-    padding-right: 10px;
-    font-size: 14px;
-    height:8px;
-    width: 8px;
-  }
 
   .button-more1{
     display: flex;
@@ -482,6 +501,7 @@ width: 333px;
     position: absolute;
     top: 397px;
     margin-left: 16px;
+    margin-top: 20px;
   }
 
   .lable1 {
@@ -579,298 +599,12 @@ width: 333px;
 
 
     
-    @media (max-width: 1024px) {
-        
- 
-
-        .header {
-          margin-left: 0px;
-        }
-
-
-        .header-menu {
-          width: 627px;
-        }
-
-        .header__body > .logo{
-          margin-right: 32px;
-          margin-left: 32px;
-        }
-
-        .menu__item:not(:last-child){
-          margin-right: 16px;
-        }
-
-        .menu__list{
-          display: flex;
-          align-items: center;
-          width: 627px;
-        }
-
-        .container {
-          max-width: 1200px;
-          max-height: 76px;
-          margin: 0 auto;
-          padding: 0 16px;
-        }
-        
-        .container-main{
-          margin-left: 32px;          
-          }    
-
-
-
-        .main-section {
-        text-align: center;
-        position:absolute;
-        }
-
-        .description {
-        margin-bottom: 50px;
-        width: 100%;
-        }
-
-
-    
-        .grid-wrapper{
-        display:grid;
-        grid-template-columns: 714px 282px;
-        grid-template-rows:auto;
-        grid-gap:24px;
-        margin-top: 54px;
-        margin-left: 32px;
-
-        }
-
-        .sec1-img1 {
-          width: 714px;
-          height: 331px;
-        }
-
-        .second-section{
-        margin-right: 32px;
-        
-        }
-
-        .blok1{
-        width: 222px;
-        height: 495px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        }
-
-
-        .blok-img1{
-          position: relative;
-          display: flex;
-          justify-content: center;   
-        }
-
-        .blok-img1 img{
-          width: 181px;
-          height: 145px;
-          position: absolute;
-
-        }
-             
-        .button-more{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          width: 182px;
-          height: 48px;
-          padding: 14px 20px;
-          background-color: rgba(53, 179, 169, 1);
-          color: rgb(255, 255, 255);
-          font-family: 'Montserrat-bold';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 16px;
-          line-height: 24px;
-          text-align: center;
-          cursor: pointer;
-          border: 0;
-          border-radius: 4px;
-          transition: all .4s ease-in-out;
-          top: 423px;
-        }
-
-
-        .blok2{
-          width: 222px;
-          height: 481px;
-          position: relative;
-          display: flex;
-          justify-content: center;
-        }
-
-        .lable1 {
-          position: absolute;
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          width: 105px;
-          height: 24px;
-          background: rgba(243, 244, 248, 0.7);
-          border-radius: 6px;
-          margin-top: 16px;
-          margin-left: 40px;
-        }
-      
-        .lable2 {
-          position: absolute;
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          width: 74px;
-          height: 24px;
-          background: rgba(243, 244, 248, 0.7);
-          border-radius: 6px; 
-          margin-top: 48px;
-          margin-left: 40px;
-        }
-
-        .row {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 10px;
-          width: 174px;
-          height: 1px;
-          background: #FFFFFF;
-          box-shadow: 0px 1px 0px #DEDEDE;
-          transform: matrix(1, 0, 0, -1, 0, 0);
-          margin-left: 54px;
-          margin-top: 108px;
-        }
-
-        .button-more1{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          width: 174px;
-          height: 48px;
-          padding: 14px 20px;
-          background-color: rgba(53, 179, 169, 1);
-          color: rgb(255, 255, 255);
-          font-family: 'Montserrat-bold';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 16px;
-          line-height: 24px;
-          text-align: center;
-          cursor: pointer;
-          border: 0;
-          border-radius: 4px;
-          transition: all .4s ease-in-out;
-          position: absolute;
-          top: 409px;
-          margin-left: 54px;
-        }
-
-        .blok3 {
-          width: 222px;
-          height: 292px;
-          background: #FFFFFF;
-          border: 1px solid #DEDEDE;
-          border-radius: 16px;
-          position: relative;
-          display: flex;
-          justify-content: center;
-          top: 52px;
-        }
-
-        .blok3 img{
-          width: 222px;
-          height: 292px;
-          position: absolute;
-          left: 0;
-
-        }
-
-        .blok4 {
-          width: 222px;
-          height: 308px;
-          background: #FFFFFF;
-          border: 1px solid #DEDEDE;
-          box-shadow: 0px 30px 50px #EFF5FB;
-          border-radius: 24px;
-          position: relative;
-          display: flex;
-          justify-content: center;
-          top: 91px;
-          overflow:hidden;
-        }
-        
-        .button-buy {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          width: 108px;
-          height: 48px;
-          padding: 14px 20px;
-          background-color: rgba(53, 179, 169, 1);
-          color: rgb(255, 255, 255);
-          font-family: 'Montserrat-bold';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 16px;
-          line-height: 24px;
-          text-align: center;
-          cursor: pointer;
-          border: 0;
-          border-radius: 4px;
-          transition: all .4s ease-in-out;
-          position: absolute;
-          margin-top: 16px;
-        }
-        
-        .gift1 {
-          position: absolute;
-          margin-top: 222px;
-          margin-left: 154px;
-        }
-        .gift2 {
-          position: absolute;
-          margin-top: 235px;
-          margin-left: 153px;
-        }
-    }
+   
 
 
 
 
-    @media (max-width: 768px) {
-        .header-menu {
-        display: none;
-        }
 
-        .burger-icon {
-        display: block;
-        height: 2px;
-        width: 24px;
-        }
-
-        .burger-icon span {
-        height: 2px;
-        width: 24px;
-        }
-
-        .grid-wrapper{
-            display:grid;
-            grid-template-columns: 728px;
-            grid-template-rows:auto;
-            grid-gap:24px;
-            margin-top: 54px;
-            }
-        .second-section{
-            display: none;
-        }    
-    }
 
 
 
