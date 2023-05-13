@@ -62,11 +62,15 @@
         margin-top: 0;
         margin-bottom: 0;
         display: flex;
-        
         align-items: center;
         
     }
     
+    .noline   {
+        text-decoration-line: none;
+        cursor:auto;
+      }
+
     .row1 {
         margin-left: 32px;
     }
@@ -467,6 +471,11 @@
         position: absolute;
             
     }
+
+    .noline   {
+        text-decoration-line: none;
+        cursor:auto;
+      }
 
 
     .blok4-text1 {
